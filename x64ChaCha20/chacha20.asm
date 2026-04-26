@@ -1,4 +1,8 @@
-												CHACHA20_QUARTEROUND:		
+; data:
+align 16
+state dd 16 dup(?)
+initial_state dd 16 dup(?)
+											CHACHA20_QUARTEROUND:		
 																; ================
 																ADD EAX, EBX 
 																XOR EDX, EAX 
