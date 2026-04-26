@@ -1,6 +1,6 @@
 format pe console
 entry start
-include 'C:\FASM\INCLUDE\win32ax.inc'
+include 'win32ax.inc'
 
 section '.text' code readable executable
 start:
